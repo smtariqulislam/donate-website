@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {}
+
+h3 {
+    font-size: 30px;
+}
+
+.header-text {
+    text-align: center;
+    color: blue;
+    padding-top: 150px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.top-banner {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+
+}
+
+/* .donate-today {
+    text-align: center;
+} */
+
+.maney-decuration {
+    display: flex;
+    margin: 10px;
+}
+
+.maney {
+    background-color: rgb(139, 143, 143);
+    width: 96px;
+    height: 72px;
+    text-align: center;
+    padding: 23px;
+    margin: 10px;
+}
+
+
+.other-amount {
+    text-align: center;
+    border-bottom: 1px solid rgb(194, 188, 188);
+    color: rgb(194, 188, 188);
+    height: 30px;
+
+}
+
+.decuration {
+    display: flex;
+    background-color: rgb(216, 227, 163);
+    margin: 60px;
+    height: 25px;
+    width: 489px;
+    padding: 81px;
+
+}
+
+.decuration1 {
+    text-align: left;
+    width: 361px;
+    height: 48px;
+    background-color: rgb(188, 188, 194);
+    padding-top: 0%;
+    padding-left: 19px;
+    color: rgb(58, 57, 57);
+    border-bottom-left-radius: 15px 20px;
+    border-top-left-radius: 15px 20px;
+
+}
+
+.decuration2 {
+    text-align: center;
+    background-color: rgb(248, 83, 6);
+    width: 100px;
+    height: 48px;
+    color: white;
+    border-bottom-right-radius: 15px 20px;
+    border-top-right-radius: 15px 20px;
+
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
