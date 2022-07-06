@@ -3,7 +3,14 @@ body {
 
 }
 
-h1 {}
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
 
 h3 {
     font-size: 30px;
@@ -11,11 +18,14 @@ h3 {
 
 .header-text {
     text-align: center;
-    color: blue;
+    color:black;
     padding-top: 150px;
 }
+.header-paragraph{
+    color:white;
+}
 
-.link-button {
+.link-button{
     text-decoration: none;
     background-color: orange;
     padding: 10px 20px;
@@ -24,7 +34,7 @@ h3 {
 
 }
 
-.top-banner {
+.top-banner{
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     height: 500px;
@@ -32,22 +42,27 @@ h3 {
 
 }
 
-/* .donate-today {
-    text-align: center;
-} */
-
-.maney-decuration {
+.continar{
     display: flex;
     margin: 10px;
+    justify-content: center;
 }
 
 .maney {
-    background-color: rgb(139, 143, 143);
-    width: 96px;
-    height: 72px;
+    background-color: rgb(241, 244, 244);
+    width: 120px;
+    height: 80px;
+    margin: 12px;
+    border-radius: 5px;
     text-align: center;
-    padding: 23px;
-    margin: 10px;
+    padding-bottom: 20px;
+    color: rgb(159, 155, 155);
+}
+
+.change-color {
+    background-color: rgb(240, 231, 214);
+    border: 2px solid red;
+    color: red;
 }
 
 
@@ -59,17 +74,53 @@ h3 {
 
 }
 
-.decuration {
-    display: flex;
-    background-color: rgb(216, 227, 163);
-    margin: 60px;
-    height: 25px;
-    width: 489px;
-    padding: 81px;
+
+
+.continar-2nd-section {
+    width: 230px;
+    background-color: bisque;
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 100px;
 
 }
 
-.decuration1 {
+.change1 {
+    background-color: aqua;
+}
+
+.change2 {
+    background-color: rgb(193, 159, 183);
+}
+
+
+.half-width {
+
+    width: 60%;
+    margin: 2px;
+}
+
+#images {
+    width: 155px;
+    height: 244px;
+    margin-left: 60px;
+}
+
+
+
+.decuration {
+    display: flex;
+    background-color: rgb(216, 227, 163);
+    height: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    padding: 81px;
+    justify-content: center;
+
+}
+
+.email{
     text-align: left;
     width: 361px;
     height: 48px;
@@ -79,10 +130,11 @@ h3 {
     color: rgb(58, 57, 57);
     border-bottom-left-radius: 15px 20px;
     border-top-left-radius: 15px 20px;
+    padding-bottom: 13px;
 
 }
 
-.decuration2 {
+.subscribe{
     text-align: center;
     background-color: rgb(248, 83, 6);
     width: 100px;
@@ -90,13 +142,21 @@ h3 {
     color: white;
     border-bottom-right-radius: 15px 20px;
     border-top-right-radius: 15px 20px;
+    padding-bottom: 13px;
 
 }
 
 
-footer{
+footer {
     background-color: black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.footer-text-1{
+    font-family: 'Lobster', cursive;
+        color: rgb(236, 83, 32);
+}
+.footer-text-2{
+    color: rgb(204, 197, 197);
 }
